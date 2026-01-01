@@ -1,38 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔥 Firebox AI
 
-## Getting Started
+**Firebox AI** is an AI-powered chatbot application built with **Next.js (frontend)** and **Python (backend)**, powered by **Google Gemini AI API**.
+It allows users to interact with an intelligent chatbot through a modern web interface.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+* 🤖 AI Chatbot powered by **Google Gemini API**
+* ⚡ Fast and responsive **Next.js frontend**
+* 🐍 Secure **Python backend**
+* 🌐 Frontend deployed on **Vercel**
+* ☁️ Backend hosted on **PythonAnywhere**
+* 🔐 Backend is **closed-source** for security
+* 🧑‍💻 Frontend is **open-source**
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* **Next.js**
+* **React**
+* **JavaScript**
+* **CSS / Tailwind CSS (if used)**
+
+### Backend
+
+* **Python**
+* **Google Gemini AI API**
+* **REST API**
+
+---
+
+## 🚀 Live Demo
+
+* **Frontend (Live):**
+  👉 [https://firebox-ai.vercel.app](https://firebox-ai.vercel.app) *(replace if different)*
+
+---
+
+## 📂 Repository Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Firebox-Ai/
+├── app/ or pages/        # Next.js app/pages
+├── components/           # Reusable UI components
+├── public/               # Static assets
+├── styles/               # Global & component styles
+├── utils/                # Helper functions
+├── README.md             # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ How It Works
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. User sends a message from the frontend UI
+2. Next.js frontend sends a request to the Python backend API
+3. Backend communicates with **Google Gemini AI**
+4. AI response is returned and displayed in real-time
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🔐 Backend Information
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> ⚠️ **Note:**
+> The backend source code is **private / closed-source** to protect API keys, logic, and security.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📦 Installation (Frontend Only)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# Clone the repository
+git clone https://github.com/AshrafulPatHan/Firebox-Ai.git
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Navigate to project folder
+cd Firebox-Ai
 
-Thanks!
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+Open `http://localhost:3000` in your browser.
+
+---
+
+## 🌍 Deployment
+
+* **Frontend:** Vercel
+* **Backend:** PythonAnywhere
+
+---
+
+## 🧠 Future Improvements
+
+* 💬 Chat history saving
+* 🌙 Dark mode
+* 🔑 User authentication
+* 📱 Mobile-first UI
+* 🎤 Voice input support
+
+---
+
+## 📜 License
+
+### Frontend
+
+This project is **open-source** and available under the **MIT License**.
+
+### Backend
+
+Backend is **closed-source** and not publicly available.
+
+---
+
+## 👨‍💻 Author
+
+**Ashraful (Isho)**
+
+* 🌐 Portfolio: [https://ashraful.top](https://ashraful.top)
+* 🐙 GitHub: [https://github.com/AshrafulPatHan](https://github.com/AshrafulPatHan)
