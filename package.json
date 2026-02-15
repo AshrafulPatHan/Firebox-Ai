@@ -1,38 +1,27 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "firebox-ai",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshrafulPatHan/Firebox-Ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshrafulPatHan/Firebox-Ai/issues"
+  },
+  "homepage": "https://github.com/AshrafulPatHan/Firebox-Ai#readme",
+  "description": "",
   "dependencies": {
-    "@google/generative-ai": "^0.24.1",
-    "@react-oauth/google": "^0.12.2",
-    "axios": "^1.10.0",
-    "bcryptjs": "^3.0.2",
-    "js-cookie": "^3.0.5",
-    "jsonwebtoken": "^9.0.2",
-    "jwt-decode": "^4.0.0",
-    "mongodb": "^6.18.0",
-    "mongoose": "^8.18.0",
-    "next": "14.2.30",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-hot-toast": "^2.6.0",
-    "react-markdown": "^10.1.0",
-    "remark-gfm": "^4.0.1"
-  },
-  "devDependencies": {
-    "@types/js-cookie": "^3.0.6",
-    "@types/jsonwebtoken": "^9.0.10",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.1"
   }
 }
